@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body {
+    background: #7f00b2;
+
+}
+
+.parent {
+    place-items: center;
+    background: transparent;
+    display: grid;
+    grid-gap: 10rem;
+    margin: 50px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+
+.visual {
+    height: 300px;
+    width: 400px;
+    margin-right: 15px;
+    border: 2px solid #000;
+}
+
+.card {
+    background: #ff69b4;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: clamp(53ch, 50%, 53ch);
+    box-shadow: 50px 20px 0px #474747;
+}
+
+.card2 {
+    background: #ff69b4;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    width: clamp(53ch, 50%, 53ch);
+    box-shadow: 50px 20px 0px #474747;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    color: #fff;
+    margin: 15px
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+/* Target One */
+
+.targetOne {
+    background: #5d3a3a;
+    margin: 0;
+}
+
+.content_target1 {
+    width: 200px;
+    height: 200px;
+    background: #b5e0ba;
+}
+
+/* Target Two */
+
+.targetTwo {
+    background: #62374e;
+    margin: 0;
+    position: relative;
+}
+
+.square1 {
+    float: left;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+}
+
+.square2 {
+    float: left;
+    position: absolute;
+    top: 200px;
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+}
+
+.square3 {
+    float: right;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+}
+
+.square4 {
+    float: right;
+    position: absolute;
+    top: 200px;
+    right: 50px;
+    width: 50px;
+    height: 50px;
+    background: #fdc57b;
+}
+
+/* Target Three */
+
+.targetThree {
+    background: #6592CF;
+    position: relative;
+}
+
+.cont {
+    z-index: 1;
+    top: 75px;
+    left: 50px;
+    position: absolute;
+    width: 300px;
+    height: 150px;
+    background: #243D83;
+}
+
+.circle1 {
+    z-index: 2;
+    top: 25px;
+    left: 75px;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    background: #6592CF;
+}
+
+.circle2 {
+    z-index: 3;
+    top: 75px;
+    left: 125px;
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: #243D83;
+}
+
+.circle3 {
+    z-index: 4;
+    top: 125px;
+    left: 175px;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: #EEB850;
+}
+
+/* Target Four */
+
+.targetFour {
+    background: #62306D;
+    margin: 0;
+}
+
+.figure1 {
+    position: relative;
+    left: 50px;
+    top: 150px;
+    border-radius: 0% 0% 50% 50%;
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+}
+
+.figure2 {
+    position: relative;
+    left: 150px;
+    top: -50px;
+    border-radius: 50% 50% 0% 0%;
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+}
+
+.figure3 {
+    position: relative;
+    left: 250px;
+    top: -50px;
+    border-radius: 0% 0% 50% 50%;
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+}
